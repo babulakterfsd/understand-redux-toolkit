@@ -20,8 +20,8 @@ const singlePostSlice = createSlice({
         })
         builder.addCase(fetchSinglePost.fulfilled, (state, action) => {
             state.loading = false;
-            state.singlePost = action.payload[0][0];
-            state.singlePostTitle = action.payload[0][0].title
+            state.singlePost = action.payload[0];
+            state.singlePostTitle = action.payload[0].title
             state.error = ''
         })
         builder.addCase(fetchSinglePost.rejected, (state, action) => {
