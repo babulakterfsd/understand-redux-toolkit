@@ -17,7 +17,6 @@ const similiarPostsSlice = createSlice({
             state.error = ''
         })
         builder.addCase(fetchSimiliarPosts.fulfilled, (state, action) => {
-            console.log(action.payload);
             state.loading = false;
             state.similiarPosts = action.payload
             state.error = ''
