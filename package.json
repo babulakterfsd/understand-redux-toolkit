@@ -1,0 +1,12 @@
+{
+  "name": "understand-redux-toolkit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/babulakterfsd/understand-redux-toolkit.git",
+  "author": "Babul Akter <babulakterfsd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "node-fetch": "2"
+  }
+}
